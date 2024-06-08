@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruqayya Mustafa</title>
+    <style>
+        h1{color: darkmagenta; background-color: blueviolet; text-align: center; 
+        font-family: "arial black" ;}
+        h2{font-family: algerian ;}
+        #js{background-color: blue; color:antiquewhite; width: 100px;}
+        p.intro{background-color: azure;}
+        .msg{background-color: darkorchid;}
+
+        /*--- table ---*/
+        .table1{background-color: beige; border: dashed 3px olivedrab; width: 300px; margin: auto;}
+        .table1 tr td{border-top: olive dotted 1px; text-align: center;}
+
+        /* --- margin --- */
+        .cat_intro{background-color: bisque; margin: 100px;}
+        .cat_intro2{background-color: bisque; margin-left: 200px;}
+        .cat_intro3{background-color: bisque; margin: 150px 50px;}
+        .cat_intro4{background-color: bisque; margin: 80px 120px 0px 20px;}
+
+        /* --- padding --- */
+        .padding1, .padding2, .padding3, .padding4{
+            background-color: cornsilk;
+        }
+        .padding1{padding: 50px;}
+        .padding2{padding: 20px 80px;}
+        .padding3{padding: 60px 30px 100px 0px;}
+        .padding4{padding-bottom: 50px;}
+    </style>
+</head>
+<body>
+    <h1>Padding</h1>
+    <p>Padding is the distance within, inside, the box or element.</p>
+    <div class="padding1">The cat (Felis catus), commonly referred to as the domestic cat or 
+    house cat, is a small domesticated carnivorous mammal. It is the only domesticated species 
+    of the family Felidae.</div>
+    <hr>
+    <div class="padding2">The cat (Felis catus), commonly referred to as the domestic cat or 
+    house cat, is a small domesticated carnivorous mammal. It is the only domesticated species 
+    of the family Felidae.</div>
+    <hr>
+    <div class="padding3">The cat (Felis catus), commonly referred to as the domestic cat or 
+    house cat, is a small domesticated carnivorous mammal. It is the only domesticated species 
+    of the family Felidae.</div>
+    <hr>
+    <div class="padding4">The cat (Felis catus), commonly referred to as the domestic cat or 
+    house cat, is a small domesticated carnivorous mammal. It is the only domesticated species 
+    of the family Felidae.</div>
+
+    <h1>Margin</h1>
+    <p>Margin is the distance outside the box.</p>
+    <div class="cat_intro">The cat (Felis catus), commonly referred to as the domestic cat or 
+    house cat, is a small domesticated carnivorous mammal. It is the only domesticated species 
+    of the family Felidae.</div>
+    <hr>
+    <div class="cat_intro2">The cat (Felis catus), commonly referred to as the domestic cat or 
+    house cat, is a small domesticated carnivorous mammal. It is the only domesticated species 
+    of the family Felidae.</div>
+    <hr>
+    <div class="cat_intro3">The cat (Felis catus), commonly referred to as the domestic cat or 
+    house cat, is a small domesticated carnivorous mammal. It is the only domesticated species 
+    of the family Felidae.</div>
+    <hr>
+    <div class="cat_intro4">The cat (Felis catus), commonly referred to as the domestic cat or 
+    house cat, is a small domesticated carnivorous mammal. It is the only domesticated species 
+    of the family Felidae.</div>
+        
+    <h1>Inline elements</h1>
+    <p class="intro">This is a paragraph</p>
+    <span class="msg">This is an inline element</span>
+    <!-- 
+        Create a table of 4 rows and three columns in each row
+    -->
+    <h1>Tables</h1>
+    <table class="table1">
+        <tr>
+            <th colspan="3" align="center">Simple table</th> 
+        </tr>
+        <tr>
+            <td> cell 1</td>
+            <td> cell 2</td>
+            <td> cell 3</td>
+        </tr>
+        <tr>
+            <td> cell 4</td>
+            <td rowspan="2"> cell 5</td>
+            <td> cell 6</td> 
+        </tr>
+        <tr>
+            <td> cell 7</td>
+            <td> cell 9</td>
+        </tr>
+        <tr>
+            <td> cell 10</td>
+            <td> cell 11</td>
+            <td> cell 12</td>
+        </tr>
+    </table>
+
+    <h1>Insert media</h1>
+    <h2>Youtube video</h2>
+    <iframe width="800" height="500" src="https://www.youtube.com/embed/ju_P7PpmuZA" title=
+    "My Dad Is A Hacker And He Taught Me EVERYTHING" frameborder="0" allow="accelerometer; 
+    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Google map</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3004103589706!2d
+    -73.75997592397215!3d40.755416971387156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+    1s0x89c261fb05968f07%3A0x49ff66ba1d2376bd!2sQueensborough%20Community%20College!5e0!3m2!
+    1sen!2sus!4v1717212571409!5m2!1sen!2sus" width="600" height="450" style="border:0;" 
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h1>List</h1>
+    <h2>Unordered List</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li id="js">JavaScript</li>
+        <ul>
+            <li>JQuery</li>
+            <li>ReactJS</li>
+        </ul>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol start="5">
+        <li>Complete examples</li>
+        <li>Submit assignment</li>
+        <li id="js">Get a grade</li>
+    </ol>
+
+    <h2>Description or definition list</h2>
+    <dl>
+        <dt>What is HTML?</dt>
+        <dd>The HyperLink MarkUp Language used to create the website structure.</dd>
+    </dl>
+</body>
+</html>
