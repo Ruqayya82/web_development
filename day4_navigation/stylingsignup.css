@@ -1,0 +1,44 @@
+.backhome{
+    border: solid rebeccapurple 1px;
+    width: 100px;
+    text-align: center;
+}
+.backhome span{
+    font-size: 50px;
+}
+.linkhome{
+    color: royalblue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.backhome:hover{
+    opacity: 0.6;
+}
+/*===== FORM ===== */
+.form{
+    padding: 20px;
+}
+.form fieldset{
+    width: 700px;
+    background-color: antiquewhite;
+    padding: 10px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 6px;
+    margin: 5% auto;
+}
+.formlegend{
+    text-align: center;
+    background-color: white;
+    border: ridge 2px black;
+    width: 300px;
+    padding: 12px;
+    font-size: 30px;
+    margin: auto;
+    border-radius: 10px;
+}
+.control{
+    margin-top: 30px;
+}
+.control label{
+    padding: 10px;
+}
