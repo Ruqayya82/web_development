@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to JS by Ruqayya Mustafa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Introduction to JavaScript</h1>
+
+    <script>
+        console.log("Welcome to JavaScript _______ ")
+        let number = 10.5;
+        console.log("The giving is ",number)
+        number++
+        console.log("The updated number is ",number)
+
+        let name="Peter"
+        console.log(name+name)
+        console.log(name+number)
+
+        let firstname = prompt("Enter a first name ", "")
+        console.log(`Good evening ${firstname}`) //backticks `` --> the key located at the left of the number 1 key
+        
+        let n1 = prompt("Enter number 1: ","")
+        let n2 = prompt("Enter number 2: ","")
+        console.log(typeof(n1)) //typeof method of JS that returns the data type
+
+        let sum = n1+n2
+        console.log(`The sum is ${sum}`)
+
+        //casting = change from one data type to another
+        n1 = parseInt(n1)
+        n2 = parseInt(n2)
+
+        sum = n1+n2;
+        console.log(`The sum after casting is ${sum}`)
+    </script>
+</body>
+</html>
