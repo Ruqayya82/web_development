@@ -1,0 +1,17 @@
+.changefontfamily{
+    font-family: "arial black";
+    text-decoration: underline;
+}
+.title{
+    text-align: center;
+    color: fuchsia
+}
+.info{
+    background-color: blueviolet;
+}
+.moreinfo{
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 1px 1px 3px black;
+}
