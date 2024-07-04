@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#rings .card {
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: aliceblue;
+}
